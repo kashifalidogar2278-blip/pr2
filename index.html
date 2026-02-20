@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile card UI design</title>
+    <link rel="stylesheet" href="pro.css">
+    <style>
+        body{
+    margin:0;
+    padding:0;
+    background:#e5e5e5;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.top-section{
+    height:120px;
+    background:#4a74d1;
+}
+
+.profile-img{
+    margin-top:-60px;
+}
+
+.profile-img img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:5px solid white;
+}
+
+.content{
+    padding:20px;
+}
+
+h2{
+    margin:10px 0 5px;
+}
+
+p{
+    color:gray;
+    margin:0 0 15px;
+}
+
+.social-icons span{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    line-height:35px;
+    border-radius:50%;
+    color:white;
+    margin:5px;
+    font-weight:bold;
+}
+
+.facebook{ background:#3b5998; }
+.twitter{ background:#1da1f2; }
+.instagram{ background:#e1306c; }
+.youtube{ background:#ff0000; }
+
+.buttons{
+    margin:15px 0;
+}
+
+.buttons button{
+    padding:8px 18px;
+    border:none;
+    border-radius:20px;
+    background:#4a74d1;
+    color:white;
+    margin:5px;
+    cursor:pointer;
+}
+
+.stats{
+    border-top:1px solid #ddd;
+    padding-top:10px;
+    color:#555;
+}
+
+.stats span{
+    margin:0 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+
+    <div class="top-section"></div>
+
+    <div class="profile-img">
+        <img src="kashifphoto.jpeg">
+    </div>
+
+    <div class="content">
+        <h2>CodingLab</h2>
+        <p>YouTuber & Blogger</p>
+
+        <div class="social-icons">
+            <span class="facebook">f</span>
+            <span class="twitter">t</span>
+            <span class="instagram">i</span>
+            <span class="youtube">▶</span>
+        </div>
+
+        <div class="buttons">
+            <button>Subscribe</button>
+            <button>Message</button>
+        </div>
+
+        <div class="stats">
+            <span>♡ 60k</span>
+            <span>💬 20k</span>
+            <span>↻ 12k</span>
+        </div>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
